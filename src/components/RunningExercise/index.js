@@ -8,9 +8,7 @@ export default function RunningExercise({exercise, setMenuScreen}) {
   let {name} = exercise
   //add current time when lap function is called
   // take the current lap's stop time and subtracting the previous lap's stop time.
- const lap = () => {
-    setLaps(laps => [time, ...laps])
-  }
+
   // display current lap times
   return <div> 
     <p> {name} </p>
